@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header name="header" id="header" class="header"> <img src="/img/Logo.svg" alt="Imagen centrada"></header>
+
+    <main name="main" id="main" class="main">
+
+        <section name="productos" id="productos" class="productos">
+             <h1 class="text__1">MIS PRODUCTOS</h1>
+
+            <ul class="card__container" alt="card alura"  data-lista>
+            </ul>   
+        </section>
+        <section name="formulario" id="formulario" class="formulario">
+            <h1 class="text__1">AGREGAR PRODUCTO </h1>
+            <form class="container__formulario" data-formulario>
+                
+                <input type="text" placeholder="nombre ..." class="imput" data-nombre>
+                <span class="error" id="error-nombre"></span>
+                
+                <input type="text" placeholder="precio ..." class="imput" data-precio>
+                <span class="error" id="error-precio"></span>
+                
+                <input type="text" placeholder="Url de imagen ... " class="imput" data-imagen>
+                <span class="error" id="error-imagen"></span>
+
+                <input type="number" placeholder="Descuento ..." class="imput" data-descuento>
+                <span class="error" id="error-descuento"></span>
+
+                <div class="buttons">
+                    <button class="button_guardar" type="submit" >Enviar</button>
+                    <button type="button" class="button_limpiar" id="clearButton">Limpiar</button>
+                </div>
+                
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer"><img src="/img/Logo.svg" alt="Imagen centrada"> Desarrollador por <strong>Edwin Andres Vela Yate</strong>
+         <br><Span ><strong>Alura Latam 2025</strong></Span></footer>
+         <script src="./js/mostrarProductos.js" type="module"></script>
+         <script src="./js/crearProducto.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,309 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.header {
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #5300C8;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.main{
+    display: flex;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    gap: 10px;
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    justify-content: center;
+}
+
+.card__container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center;
+}
+
+.card {
+    list-style-type: none; 
+    border: 3px solid #ddd;
+    padding: 20px;
+    width: 15%; 
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    position: relative;
+    margin: 10px;
+  }
+  
+  .discount-tag {
+    background-color: #f44336; /* Color de fondo rojo */
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+  }
+  
+  .card-logo {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .card-container--info {
+    text-align: center;
+  }
+  
+  .product-name {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-container--value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-price {
+    font-size: 17px;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .trans-icon {
+    width: 17px;
+    height: 17px;
+  }
+  
+.productos {
+  border: 2px solid #ddd;
+  border-radius: 30px;
+  width: 70%;
+  height: 70%;
+  margin: 15px;
+}
+
+.no-productos {
+  text-align: center;
+  font-size: 50px;
+  color: #03318C;
+  padding: 20px;
+}
+
+.formulario {
+  border: 2px solid #ddd;
+  border-radius: 30px;
+  width: 30%;
+  height: auto;
+  margin: 15px;
+  text-align: center;
+}
+
+.imput {
+    border-color: #03318C;
+    border-radius: 60px;
+    border-style: solid;  
+    border-width: 2px; 
+    width: 80%;
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.text__1 {
+    
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.button_guardar {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: #03318C;
+    color: white;
+    background-color: #03318C;
+    font-size: 15px;
+    font-family: Press Start 2P;
+    border-style: solid;
+}
+
+.button_limpiar {
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  border-color: #03318C;
+  color: #03318C;
+  background-color: white;
+  font-size: 15px;
+  font-family: Press Start 2P;
+  border-style: solid;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.footer {
+    height: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #5300C8;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    color: white;
+}
+
+input::placeholder, textarea::placeholder {
+  font-weight: bold; 
+  color: #4575d4; 
+}
+
+/* Estilo para los mensajes de error */
+.error {
+  color: red; /* Color de texto rojo */
+  font-size: 12px; /* Tamaño pequeño */
+  margin-top: 5px; /* Un poco de espacio debajo del input */
+  display: none; /* Inicialmente no mostrar */
+}
+
+/* Opcional: puedes añadir un borde rojo al campo con error */
+.imput.error-field {
+  border-color: red;
+}
+
+@media(max-width: 834px) {
+
+    .main {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding-right: 0px;
+       padding-left: 0px;
+    }
+
+    .formulario{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin: 15px;
+        order: -1; 
+    }
+
+    .imput {
+        width: 550px;
+        height: 40px;
+    }
+
+    .button {
+        width: 180px;
+ 
+    }
+
+    .productos {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        margin: 15px;
+    }
+
+    .no-productos {
+      font-size: 60px;
+  }
+
+    .card {
+        width: 30%; 
+        height: 220px;
+        gap: 50px;
+      }
+
+      .card__container {
+       justify-content: center;
+    }
+
+    .card-logo {
+        width: 100%;
+        height: 60%;
+      }
+
+}
+
+@media(max-width: 430px) {
+
+  .imput {
+    width: 250px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.card {
+  width: 40%; 
+  height: 220px;
+  gap: 50px;
+}
+
+.button {
+  margin-top: 15px;
+  width: 130px;
+}
+
+.text__1 {
+  font-size: 20px;
+}
+
+.no-productos {
+  font-size: 30px;
+}
+
+}

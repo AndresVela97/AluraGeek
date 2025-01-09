@@ -1,0 +1,60 @@
+{
+  "productos": [
+    {
+      "descuento": "20",
+      "nombre": "Air Presto",
+      "precio": "355000",
+      "imagen": "/img/nike_presto.png",
+      "id": "1"
+    },
+    {
+      "descuento": "55",
+      "nombre": "Air Force 1",
+      "precio": "280000",
+      "imagen": "/img/nike_air_force_1.jpg",
+      "id": "2"
+    },
+    {
+      "descuento": "10",
+      "nombre": "Air Max 90",
+      "precio": "420000",
+      "imagen": "/img/nike_air_max_90.webp",
+      "id": "3"
+    },
+    {
+      "descuento": "30",
+      "nombre": "Jordan Retro 4",
+      "precio": "380000",
+      "imagen": "/img/jordan_retro_4.webp",
+      "id": "4"
+    },
+    {
+      "id": "c220",
+      "descuento": "10",
+      "nombre": "nike vomero",
+      "precio": "450000",
+      "imagen": "/img/nike_air_zoom_vomero.jpg"
+    },
+    {
+      "id": "69e0",
+      "descuento": "2",
+      "nombre": "Nike vapor max",
+      "precio": "699000",
+      "imagen": "https://storage.googleapis.com/storage-unico/DM0032-006-070_1.jpg"
+    },
+    {
+      "id": "b802",
+      "descuento": "20",
+      "nombre": "Nike metcon",
+      "precio": "480000",
+      "imagen": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQR-Le2BrrMN3lPCmPEDOLWC6aKuAUKksWPKOrAIB9QiGpq7P1QhDxUKN1unK0jZEeHtm3KkbVh7s0-RdYkDJP9kHpaA-NXp77-R0RPEr_tbg61EpIZqaO-DiVLO4gMt3SBw02pOjLA&usqp=CAc"
+    },
+    {
+      "id": "6c2e",
+      "descuento": "5",
+      "nombre": "Nike Roshe",
+      "precio": "399000",
+      "imagen": "data:image/jpeg;base64,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"
+    }
+  ]
+}
